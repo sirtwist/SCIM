@@ -1,6 +1,6 @@
 ﻿// Copyright (c) Microsoft Corporation.// Licensed under the MIT license.
 
-namespace Microsoft.SCIM.WebHostSample.Resources
+namespace Mod.SCIM.WebHostSample.Resources
 {
     public static class SampleResourceTypeAttributes
     {

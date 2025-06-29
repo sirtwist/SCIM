@@ -3,7 +3,7 @@
 // ------------------------------------------------------------
 
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System.Runtime.Serialization;
 

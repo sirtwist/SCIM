@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft Corporation.// Licensed under the MIT license.
 
-namespace Microsoft.SCIM.WebHostSample.Provider
+namespace Mod.SCIM.WebHostSample.Provider
 {
     using System;
     using System.Collections.Generic;
@@ -9,7 +9,7 @@ namespace Microsoft.SCIM.WebHostSample.Provider
     using System.Net;
     using System.Threading.Tasks;
     using System.Web.Http;
-    using Microsoft.SCIM;
+    using Mod.SCIM;
 
     public class InMemoryGroupProvider : ProviderBase
     {

@@ -21,6 +21,7 @@ Taxonomies for products and languages: https://review.docs.microsoft.com/new-hop
 The reference code provided in this repository will help you get started building a [SCIM](https://docs.microsoft.com/azure/active-directory/manage-apps/use-scim-to-provision-users-and-groups) endpoint. It contains guidance on how to implement basic requirements for CRUD operations on a user and group object (also known as resources in SCIM) and optional features of the standard such as filtering and pagination. Use the repository **[Wiki](https://github.com/AzureAD/SCIMReferenceCode/wiki)** for guidance on how to use this reference.
 
 > **[NOTE]**
+> This code is a fork of the Microsoft.SystemForCrossDomainIdentityManagement repository and has been updated and renamed to Mod.SCIM. The original repository appears to no longer be actively developed or monitored.
 > This code is intended to help you get started building your SCIM endpoint and is provided "AS IS." It is intended as a reference and there is no guarantee of it being actively maintained or supported. [Contributions](https://github.com/AzureAD/SCIMReferenceCode/wiki/Contributing-Overview) from the community are welcome to help build and maintain the repo.
 
 ## Capabilities 

@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System;
     using System.Collections;

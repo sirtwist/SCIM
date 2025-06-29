@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM.WebHostSample
+namespace Mod.SCIM.WebHostSample
 {
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Hosting;

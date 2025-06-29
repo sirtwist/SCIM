@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft Corporation.// Licensed under the MIT license.
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System.Collections.Generic;
     using System.Net.Http;

@@ -1,6 +1,6 @@
 // Copyright (c) Microsoft Corporation.// Licensed under the MIT license.
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     public interface IUniformResourceIdentifier
     {

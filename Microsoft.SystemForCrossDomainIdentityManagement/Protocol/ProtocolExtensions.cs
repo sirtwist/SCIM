@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System;
     using System.Collections;
@@ -1017,7 +1017,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Type,
+                    Mod.SCIM.AttributeNames.Type,
                     subAttribute.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -1116,7 +1116,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Roles,
+                    Mod.SCIM.AttributeNames.Roles,
                     operation.Path.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )

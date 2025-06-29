@@ -1,5 +1,5 @@
 ﻿
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using Newtonsoft.Json;
     using System;

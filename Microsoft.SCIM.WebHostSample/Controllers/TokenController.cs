@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM.WebHostSample.Controllers
+namespace Mod.SCIM.WebHostSample.Controllers
 {
     using System;
     using System.IdentityModel.Tokens.Jwt;

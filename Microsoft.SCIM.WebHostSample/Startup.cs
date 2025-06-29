@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM.WebHostSample
+namespace Mod.SCIM.WebHostSample
 {
     using System.Text;
     using System.Threading.Tasks;
@@ -16,7 +16,7 @@ namespace Microsoft.SCIM.WebHostSample
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.IdentityModel.Tokens;
-    using Microsoft.SCIM.WebHostSample.Provider;
+    using Mod.SCIM.WebHostSample.Provider;
     using Newtonsoft.Json;
 
     public class Startup

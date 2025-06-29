@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System;
     using System.Globalization;
@@ -32,7 +32,7 @@ namespace Microsoft.SCIM
             }
 
             this.Name = operationName;
-            this.Path = Microsoft.SCIM.Path.Create(pathExpression);
+            this.Path = Mod.SCIM.Path.Create(pathExpression);
         }
 
         public OperationName Name
@@ -75,7 +75,7 @@ namespace Microsoft.SCIM
             {
                 if (null == this.path && !string.IsNullOrWhiteSpace(this.pathExpression))
                 {
-                    this.path = Microsoft.SCIM.Path.Create(this.pathExpression);
+                    this.path = Mod.SCIM.Path.Create(this.pathExpression);
                 }
 
                 return this.path;

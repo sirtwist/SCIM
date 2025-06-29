@@ -2,7 +2,7 @@
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
-namespace Microsoft.SCIM
+namespace Mod.SCIM
 {
     using System;
     using System.Collections.Generic;
@@ -281,7 +281,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Addresses,
+                    Mod.SCIM.AttributeNames.Addresses,
                     operation.Path.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -323,7 +323,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Type,
+                    Mod.SCIM.AttributeNames.Type,
                     subAttribute.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -359,7 +359,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.Country,
+                        Mod.SCIM.AttributeNames.Country,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -380,7 +380,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.Locality,
+                        Mod.SCIM.AttributeNames.Locality,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -401,7 +401,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.PostalCode,
+                        Mod.SCIM.AttributeNames.PostalCode,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -422,7 +422,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.Region,
+                        Mod.SCIM.AttributeNames.Region,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -443,7 +443,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.StreetAddress,
+                        Mod.SCIM.AttributeNames.StreetAddress,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -467,7 +467,7 @@ namespace Microsoft.SCIM
                 if
                 (
                     string.Equals(
-                        Microsoft.SCIM.AttributeNames.Formatted,
+                        Mod.SCIM.AttributeNames.Formatted,
                         operation.Path.ValuePath.AttributePath,
                         StringComparison.Ordinal)
                 )
@@ -727,7 +727,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Name,
+                    Mod.SCIM.AttributeNames.Name,
                     operation.Path.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -774,7 +774,7 @@ namespace Microsoft.SCIM
             if
             (
                 string.Equals(
-                    Microsoft.SCIM.AttributeNames.GivenName,
+                    Mod.SCIM.AttributeNames.GivenName,
                     operation.Path.ValuePath.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -795,7 +795,7 @@ namespace Microsoft.SCIM
             if
             (
                 string.Equals(
-                    Microsoft.SCIM.AttributeNames.FamilyName,
+                    Mod.SCIM.AttributeNames.FamilyName,
                     operation.Path.ValuePath.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -868,7 +868,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.PhoneNumbers,
+                    Mod.SCIM.AttributeNames.PhoneNumbers,
                     operation.Path.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )
@@ -910,7 +910,7 @@ namespace Microsoft.SCIM
             if
             (
                 !string.Equals(
-                    Microsoft.SCIM.AttributeNames.Type,
+                    Mod.SCIM.AttributeNames.Type,
                     subAttribute.AttributePath,
                     StringComparison.OrdinalIgnoreCase)
             )

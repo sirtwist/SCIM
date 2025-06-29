@@ -1,12 +1,12 @@
 // Copyright (c) Microsoft Corporation.// Licensed under the MIT license.
 
-namespace Microsoft.SCIM.WebHostSample.Provider
+namespace Mod.SCIM.WebHostSample.Provider
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
-    using Microsoft.SCIM;
+    using Mod.SCIM;
 
     public class InMemoryStorage
     {
